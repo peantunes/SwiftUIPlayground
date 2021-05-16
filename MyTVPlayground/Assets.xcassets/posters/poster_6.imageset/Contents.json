@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "moonlight-ver2-xlg.jpg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

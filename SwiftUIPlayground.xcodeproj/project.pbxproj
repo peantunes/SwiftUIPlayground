@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C7E6A9826513E2100DD2045 /* MyTVPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E6A9726513E2100DD2045 /* MyTVPlaygroundApp.swift */; };
+		9C7E6A9A26513E2100DD2045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E6A9926513E2100DD2045 /* ContentView.swift */; };
+		9C7E6A9C26513E2200DD2045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7E6A9B26513E2200DD2045 /* Assets.xcassets */; };
+		9C7E6A9F26513E2200DD2045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7E6A9E26513E2200DD2045 /* Preview Assets.xcassets */; };
+		9C7E6AA626513F2600DD2045 /* GlowInTheDarkViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D24262B864B0020E8C1 /* GlowInTheDarkViewModifier.swift */; };
+		9C7E6AA726513F2600DD2045 /* ImpressMeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D21262B85730020E8C1 /* ImpressMeViewModifier.swift */; };
+		9C7E6AA826513F2600DD2045 /* GroundReflectionViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D2A262B886C0020E8C1 /* GroundReflectionViewModifier.swift */; };
+		9C7E6AA926513F2600DD2045 /* XXLTextViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D27262B87980020E8C1 /* XXLTextViewModifier.swift */; };
+		9C7E6AAA26513F2600DD2045 /* GroundShadowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D31262B94070020E8C1 /* GroundShadowViewModifier.swift */; };
+		9C7E6AAB26513F2600DD2045 /* FlamesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D2D262B92D60020E8C1 /* FlamesViewModifier.swift */; };
+		9C7E6AAC26513F2600DD2045 /* AquaViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D1D262B840C0020E8C1 /* AquaViewModifier.swift */; };
+		9C7E6AB226513F3100DD2045 /* FlipCoinAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D3A262C3EDF0020E8C1 /* FlipCoinAnimatableModifier.swift */; };
+		9C7E6AB326513F3100DD2045 /* FloatingAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D35262B9A320020E8C1 /* FloatingAnimatableModifier.swift */; };
+		9C7E6AB426513F3100DD2045 /* ShapeVerticesAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D3D262C85BC0020E8C1 /* ShapeVerticesAnimatableModifier.swift */; };
 		9C961D0C262B83D50020E8C1 /* SwiftUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D0B262B83D50020E8C1 /* SwiftUIPlaygroundApp.swift */; };
 		9C961D0E262B83D50020E8C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D0D262B83D50020E8C1 /* ContentView.swift */; };
 		9C961D10262B83D60020E8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C961D0F262B83D60020E8C1 /* Assets.xcassets */; };
@@ -22,9 +36,23 @@
 		9C961D3B262C3EDF0020E8C1 /* FlipCoinAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D3A262C3EDF0020E8C1 /* FlipCoinAnimatableModifier.swift */; };
 		9C961D3E262C85BC0020E8C1 /* ShapeVerticesAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D3D262C85BC0020E8C1 /* ShapeVerticesAnimatableModifier.swift */; };
 		9C961D42262C86480020E8C1 /* PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C961D41262C86480020E8C1 /* PolygonShape.swift */; };
+		9CA58416265171F200077823 /* filmContent.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CA58415265171F200077823 /* filmContent.json */; };
+		9CA5841A2651741300077823 /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA584192651741300077823 /* FileLoader.swift */; };
+		9CA5841F2651768D00077823 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5841E2651768D00077823 /* RemoteImage.swift */; };
+		9CA584232651826F00077823 /* ImageLoaderAndCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA584222651826F00077823 /* ImageLoaderAndCache.swift */; };
+		9CA584282651AF6F00077823 /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA584272651AF6F00077823 /* HomeContentView.swift */; };
+		9CA584312651B14000077823 /* PosterHorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA584302651B14000077823 /* PosterHorizontalCollectionView.swift */; };
+		9CA584372651B46D00077823 /* SimpleFocusViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA584362651B46D00077823 /* SimpleFocusViewModifier.swift */; };
+		9CA5843E2651B8EC00077823 /* CollectionsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA5843D2651B8EC00077823 /* CollectionsContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C7E6A9526513E2100DD2045 /* MyTVPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTVPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7E6A9726513E2100DD2045 /* MyTVPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTVPlaygroundApp.swift; sourceTree = "<group>"; };
+		9C7E6A9926513E2100DD2045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C7E6A9B26513E2200DD2045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C7E6A9E26513E2200DD2045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C7E6AA026513E2200DD2045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C961D08262B83D50020E8C1 /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C961D0B262B83D50020E8C1 /* SwiftUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundApp.swift; sourceTree = "<group>"; };
 		9C961D0D262B83D50020E8C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,9 +70,24 @@
 		9C961D3A262C3EDF0020E8C1 /* FlipCoinAnimatableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCoinAnimatableModifier.swift; sourceTree = "<group>"; };
 		9C961D3D262C85BC0020E8C1 /* ShapeVerticesAnimatableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeVerticesAnimatableModifier.swift; sourceTree = "<group>"; };
 		9C961D41262C86480020E8C1 /* PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonShape.swift; sourceTree = "<group>"; };
+		9CA58415265171F200077823 /* filmContent.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = filmContent.json; sourceTree = "<group>"; };
+		9CA584192651741300077823 /* FileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoader.swift; sourceTree = "<group>"; };
+		9CA5841E2651768D00077823 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		9CA584222651826F00077823 /* ImageLoaderAndCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderAndCache.swift; sourceTree = "<group>"; };
+		9CA584272651AF6F00077823 /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
+		9CA584302651B14000077823 /* PosterHorizontalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterHorizontalCollectionView.swift; sourceTree = "<group>"; };
+		9CA584362651B46D00077823 /* SimpleFocusViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFocusViewModifier.swift; sourceTree = "<group>"; };
+		9CA5843D2651B8EC00077823 /* CollectionsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9C7E6A9226513E2100DD2045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C961D05262B83D50020E8C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,10 +98,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C7E6A9626513E2100DD2045 /* MyTVPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				9CA5843A2651B4F100077823 /* ViewModifiers */,
+				9CA5842F2651B11000077823 /* Components */,
+				9CA584262651AF4B00077823 /* ContentViews */,
+				9CA5841D2651767B00077823 /* Helpers */,
+				9C7E6A9726513E2100DD2045 /* MyTVPlaygroundApp.swift */,
+				9C7E6A9926513E2100DD2045 /* ContentView.swift */,
+				9C7E6A9B26513E2200DD2045 /* Assets.xcassets */,
+				9C7E6AA026513E2200DD2045 /* Info.plist */,
+				9C7E6A9D26513E2200DD2045 /* Preview Content */,
+				9CA58415265171F200077823 /* filmContent.json */,
+				9CA584192651741300077823 /* FileLoader.swift */,
+			);
+			path = MyTVPlayground;
+			sourceTree = "<group>";
+		};
+		9C7E6A9D26513E2200DD2045 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C7E6A9E26513E2200DD2045 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		9C961CFF262B83D50020E8C1 = {
 			isa = PBXGroup;
 			children = (
 				9C961D0A262B83D50020E8C1 /* SwiftUIPlayground */,
+				9C7E6A9626513E2100DD2045 /* MyTVPlayground */,
 				9C961D09262B83D50020E8C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				9C961D08262B83D50020E8C1 /* SwiftUIPlayground.app */,
+				9C7E6A9526513E2100DD2045 /* MyTVPlayground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +205,60 @@
 			path = Shape;
 			sourceTree = "<group>";
 		};
+		9CA5841D2651767B00077823 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9CA5841E2651768D00077823 /* RemoteImage.swift */,
+				9CA584222651826F00077823 /* ImageLoaderAndCache.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9CA584262651AF4B00077823 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				9CA584272651AF6F00077823 /* HomeContentView.swift */,
+				9CA5843D2651B8EC00077823 /* CollectionsContentView.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		9CA5842F2651B11000077823 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9CA584302651B14000077823 /* PosterHorizontalCollectionView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9CA5843A2651B4F100077823 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9CA584362651B46D00077823 /* SimpleFocusViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9C7E6A9426513E2100DD2045 /* MyTVPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7E6AA326513E2200DD2045 /* Build configuration list for PBXNativeTarget "MyTVPlayground" */;
+			buildPhases = (
+				9C7E6A9126513E2100DD2045 /* Sources */,
+				9C7E6A9226513E2100DD2045 /* Frameworks */,
+				9C7E6A9326513E2100DD2045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTVPlayground;
+			productName = MyTVPlayground;
+			productReference = 9C7E6A9526513E2100DD2045 /* MyTVPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9C961D07262B83D50020E8C1 /* SwiftUIPlayground */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C961D17262B83D60020E8C1 /* Build configuration list for PBXNativeTarget "SwiftUIPlayground" */;
@@ -163,6 +285,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					9C7E6A9426513E2100DD2045 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					9C961D07262B83D50020E8C1 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -182,11 +307,22 @@
 			projectRoot = "";
 			targets = (
 				9C961D07262B83D50020E8C1 /* SwiftUIPlayground */,
+				9C7E6A9426513E2100DD2045 /* MyTVPlayground */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9C7E6A9326513E2100DD2045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA58416265171F200077823 /* filmContent.json in Resources */,
+				9C7E6A9F26513E2200DD2045 /* Preview Assets.xcassets in Resources */,
+				9C7E6A9C26513E2200DD2045 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C961D06262B83D50020E8C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +335,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9C7E6A9126513E2100DD2045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7E6AA626513F2600DD2045 /* GlowInTheDarkViewModifier.swift in Sources */,
+				9C7E6AA726513F2600DD2045 /* ImpressMeViewModifier.swift in Sources */,
+				9C7E6AB226513F3100DD2045 /* FlipCoinAnimatableModifier.swift in Sources */,
+				9C7E6A9A26513E2100DD2045 /* ContentView.swift in Sources */,
+				9C7E6AAC26513F2600DD2045 /* AquaViewModifier.swift in Sources */,
+				9CA5843E2651B8EC00077823 /* CollectionsContentView.swift in Sources */,
+				9C7E6AAA26513F2600DD2045 /* GroundShadowViewModifier.swift in Sources */,
+				9CA584372651B46D00077823 /* SimpleFocusViewModifier.swift in Sources */,
+				9C7E6AA926513F2600DD2045 /* XXLTextViewModifier.swift in Sources */,
+				9C7E6AB326513F3100DD2045 /* FloatingAnimatableModifier.swift in Sources */,
+				9CA584232651826F00077823 /* ImageLoaderAndCache.swift in Sources */,
+				9C7E6AAB26513F2600DD2045 /* FlamesViewModifier.swift in Sources */,
+				9CA5841F2651768D00077823 /* RemoteImage.swift in Sources */,
+				9CA5841A2651741300077823 /* FileLoader.swift in Sources */,
+				9C7E6AA826513F2600DD2045 /* GroundReflectionViewModifier.swift in Sources */,
+				9CA584312651B14000077823 /* PosterHorizontalCollectionView.swift in Sources */,
+				9C7E6A9826513E2100DD2045 /* MyTVPlaygroundApp.swift in Sources */,
+				9C7E6AB426513F3100DD2045 /* ShapeVerticesAnimatableModifier.swift in Sources */,
+				9CA584282651AF6F00077823 /* HomeContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C961D04262B83D50020E8C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +384,52 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9C7E6AA126513E2200DD2045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTVPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 666GZ2659S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyTVPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolados.MyTVPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		9C7E6AA226513E2200DD2045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTVPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 666GZ2659S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyTVPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolados.MyTVPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Release;
+		};
 		9C961D15262B83D60020E8C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -385,6 +593,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9C7E6AA326513E2200DD2045 /* Build configuration list for PBXNativeTarget "MyTVPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7E6AA126513E2200DD2045 /* Debug */,
+				9C7E6AA226513E2200DD2045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9C961D03262B83D50020E8C1 /* Build configuration list for PBXProject "SwiftUIPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
